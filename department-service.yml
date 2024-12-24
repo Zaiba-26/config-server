@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: department-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+  datasource:
+      url: jdbc:h2:mem:testdb
+
+server:
+  port: 8085
